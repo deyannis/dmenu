@@ -6,3 +6,5 @@ List of patches
 * dmenu-bordercolor-20230512-0fe460d.diff
 * dmenu-colored-caret-5.2.diff
 * dmenu-numbers-20220512-28fb3e2.diff
+* dmenu-grid-4.9.diff
+* dmenu-gridnav-5.2.diff
