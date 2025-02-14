@@ -16,6 +16,7 @@ static const char *colors[SchemeLast][2] = {
 	[SchemeNorm]   = { "#d8dee9", "#2e3440" },
 	[SchemeSel]    = { "#2e3440", "#a3be8c" },
 	[SchemeOut]    = { "#2e3440", "#8fbcbb" },
+	[SchemeCaret]  = { "#81a1c1", NULL },
 	[SchemeBorder] = { "#5e81ac", NULL },
 };
 
