@@ -12,10 +12,11 @@ static const char *fonts[] = {
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
-	/*               fg         bg       */
-	[SchemeNorm] = { "#d8dee9", "#2e3440" },
-	[SchemeSel]  = { "#2e3440", "#a3be8c" },
-	[SchemeOut]  = { "#2e3440", "#8fbcbb" },
+	/*                 fg         bg       */
+	[SchemeNorm]   = { "#d8dee9", "#2e3440" },
+	[SchemeSel]    = { "#2e3440", "#a3be8c" },
+	[SchemeOut]    = { "#2e3440", "#8fbcbb" },
+	[SchemeBorder] = { "#4c566a", NULL },
 };
 
 static const unsigned int alphas[SchemeLast][2] = {
@@ -33,4 +34,4 @@ static unsigned int lines      = 0;
 static const char worddelimiters[] = " ";
 
 /* Size of the window border */
-static unsigned int border_width = 1;
+static unsigned int border_width = 2;
